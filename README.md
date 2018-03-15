@@ -1,5 +1,5 @@
 # AngularLearning
-Persnal reference for Learning Angular Framework.
+Personal reference for Learning Angular Framework.
 
 Topics:
 1. Project Environment Setup
