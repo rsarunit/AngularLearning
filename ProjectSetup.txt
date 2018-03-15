@@ -1,0 +1,7 @@
+Tools/Software Required
+1. Node
+2. Angular CLI
+3. Visual Studio Code 
+# For Java Backend
+4. Spring Toolsuite/ Eclipse
+5. MySql/Mongodb for Datastore.
