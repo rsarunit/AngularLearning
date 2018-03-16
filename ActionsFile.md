@@ -19,3 +19,5 @@ Include bootstrap /jquery / popper js in angular cli file
  remove 2 lines in boostrap package.json file
  
  offcanvas css need to moved to appcomponent.css file
+ 
+ write custom directive to solve holder js problem
