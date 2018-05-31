@@ -1,0 +1,15 @@
+{
+  "name": "contact_server",
+  "version": "1.0.0",
+  "description": "sample storage server for contacts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "arunkumar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "express": "4.16.3"
+  }
+}
