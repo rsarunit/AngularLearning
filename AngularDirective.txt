@@ -1,0 +1,23 @@
+Angular Directive has two types.
+
+1.Structural directives—change the DOM layout by adding and removing DOM elements
+    Structural directives are responsible for HTML layout. They shape or reshape the DOM's structure, 
+    typically by adding, removing, or manipulating elements
+    
+<div *ngIf="hero" class="name">{{hero.name}}</div>
+
+<div *ngIf="hero" class="name">{{hero.name}}</div>
+
+<ul>
+  <li *ngFor="let hero of heroes">{{hero.name}}</li>
+</ul>
+
+<div [ngSwitch]="hero?.emotion">
+  <app-happy-hero    *ngSwitchCase="'happy'"    [hero]="hero"></app-happy-hero>
+  <app-sad-hero      *ngSwitchCase="'sad'"      [hero]="hero"></app-sad-hero>
+  <app-confused-hero *ngSwitchCase="'app-confused'" [hero]="hero"></app-confused-hero>
+  <app-unknown-hero  *ngSwitchDefault           [hero]="hero"></app-unknown-hero>
+</div>
+
+
+2.Attribute directives—change the appearance or behavior of an element, component, or another directive
